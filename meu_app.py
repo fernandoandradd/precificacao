@@ -1,8 +1,4 @@
 import streamlit as st
-import locale
-
-# Configurando a localização para o Brasil (pt_BR)
-locale.setlocale(locale.LC_ALL, 'pt_BR')
 
 def calcular_markup(preco_custo, percentual):
     markup = preco_custo * (1 + percentual / 100)

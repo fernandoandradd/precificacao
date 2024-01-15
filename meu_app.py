@@ -44,7 +44,7 @@ if st.button("Calcular"):
     st.subheader("Resultado Markup:")
     st.write(f"Markup calculado = R$ {markup_calculado:.2f}".replace(".", ","))
     st.write(f"Lucro Bruto em Valores(Preço de venda - custo da mercadoria) = R$ {valor_markup:.2f}".replace(".", ","))
-    st.write(f"Percentual de Lucro Sobre a Venda (Lucro Bruto / Valor de Venda = {margem_calculada:.2f}%".replace(".", ","))
+    st.write(f"Percentual de Lucro Sobre a Venda (Lucro Bruto / Valor de Venda ) = {margem_calculada:.2f}%".replace(".", ","))
 
 
     # Exibindo resultados
